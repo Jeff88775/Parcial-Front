@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/survey.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<title>Encuesta</title>
+</head>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="js/script.js"></script>
+
+<body>
+	<div class="fluid-content">
+		<div class="row">
+			<form class="col-sm-8 offset-2 modal-content text-center">
+				<h2>Encuesta</h2>
+				<div>
+					<p class="question">1. Pregunta formulada de manera aleatoria #1</p>
+					<ul>
+						<input class="answer" type="radio" name="p1" value="1">
+						<label>Respuesta Correcta 1</label>
+						<br>
+						<input class="answer" type="radio" name="p1" value="0">
+						<label>Respuesta Incorrecta</label>
+						<br>
+						<input class="answer" type="radio" name="p1" value="0">
+						<label>Respuesta Incorrecta</label>
+						<br>
+						<input class="answer" type="radio" name="p1" value="0">
+						<label>Respuesta Incorrecta</label>
+					</ul>
+				</div>
+				<div>
+					<p class="question">2. Pregunta formulada de manera aleatoria #2</p>
+					<ul>
+						<input class="answer" type="radio" name="p2" value="0">
+						<label>Respuesta Incorrecta</label>
+						<br>
+						<input class="answer" type="radio" name="p2" value="1">
+						<label>Respuesta Correcta 2</label>
+						<br>
+						<input class="answer" type="radio" name="p2" value="0">
+						<label>Respuesta Incorrecta</label>
+						<br>
+						<input class="answer" type="radio" name="p2" value="0">
+						<label>Respuesta Incorrecta</label>
+					</ul>
+				</div>
+				<div>
+					<p class="question">3. Pregunta formulada de manera aleatoria #3</p>
+
+					<ul>
+						<input class="answer" type="radio" name="p3" value="0">
+						<label>Respuesta Incorrecta</label>
+						<br>
+						<input class="answer" type="radio" name="p3" value="1">
+						<label>Respuesta Correcta 3</label>
+						<br>
+						<input class="answer" type="radio" name="p3" value="0">
+						<label>Respuesta Incorrecta</label>
+						<br>
+						<input class="answer" type="radio" name="p3" value="0">
+						<label>Respuesta Incorrecta</label>
+					</ul>
+				</div>
+				<div>
+					<p class="question">4. Pregunta formulada de manera aleatoria #4</p>
+					<ul>
+						<input class="answer" type="radio" name="p4" value="0">
+						<label>Respuesta Incorrecta</label>
+						<br>
+						<input class="answer" type="radio" name="p4" value="1">
+						<label>Respuesta Correcta 4</label>
+						<br>
+						<input class="answer" type="radio" name="p4" value="0">
+						<label>Respuesta Incorrecta</label>
+						<br>
+						<input class="answer" type="radio" name="p4" value="0">
+						<label>Respuesta Incorrecta</label>
+					</ul>
+				</div>
+				<div>
+					<p class="question">5. Pregunta formulada de manera aleatoria #5</p>
+					<ul>
+						<input class="answer" type="radio" name="p5" value="0">
+						<label>Respuesta Incorrecta</label>
+						<br>
+						<input class="answer" type="radio" name="p5" value="1">
+						<label>Respuesta Correcta 5</label>
+						<br>
+						<input class="answer" type="radio" name="p5" value="0">
+						<label>Respuesta Incorrecta</label>
+						<br>
+						<input class="answer" type="radio" name="p5" value="0">
+						<label>Respuesta Incorrecta</label>
+					</ul>
+				</div>
+				<div class="col-sm-3 offset-4">
+					<div class="offset-4">
+						<h2 class="quizScore" id="resultado"></h2>
+					</div>
+				</div>		
+			</form>
+			<div class="col-sm-8 offset-2 model-content">
+			<div class="col-sm-2 offset-5">
+			<div class="submitter">
+				<input class="quizSubmit" id="submitButton" onClick="submitQuiz()" type="submit" value="Finalizar" />
+			</div>
+			
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

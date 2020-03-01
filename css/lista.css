@@ -1,0 +1,34 @@
+body{
+    background: url(https://wallpaperaccess.com/full/516089.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.list-group{
+    width: 150%;
+}
+
+.container-img {
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.lista, .list-group-item{
+    height: 200px;
+    padding-top: 50px !important;
+}
+
+.fluid-content{
+    margin:50px;
+}
